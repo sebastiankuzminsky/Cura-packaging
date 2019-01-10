@@ -8,7 +8,6 @@ Build-Depends:
  libarcus-dev,
 # Protobuf (>= 3.5)
  protobuf-compiler (>= 3.5), libprotobuf-dev (>= 3.5),
- stb-dev,
 # Tests
  libcppunit-dev,
 Standards-Version: 3.9.6
