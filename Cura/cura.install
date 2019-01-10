@@ -22,7 +22,6 @@ usr/lib/cura/plugins/SimulationView
 usr/lib/cura/plugins/SolidView
 usr/lib/cura/plugins/SupportEraser
 usr/lib/cura/plugins/Toolbox
-usr/lib/cura/plugins/UFPWriter
 usr/lib/cura/plugins/UserAgreement
 usr/lib/cura/plugins/VersionUpgrade
 usr/lib/cura/plugins/XmlMaterialProfile
