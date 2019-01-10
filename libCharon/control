@@ -6,6 +6,7 @@ Build-Depends:
  debhelper (>= 9),
  cmake,
  python3-all-dev, python3-all-dbg,
+ python3-pytest
 Standards-Version: 3.9.8
 X-Python3-Version: >= 3.4
 Homepage: https://github.com/Ultimaker/libCharon
