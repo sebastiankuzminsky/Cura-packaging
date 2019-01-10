@@ -27,7 +27,6 @@ usr/lib/cura/plugins/ChangeLogPlugin
 usr/lib/cura/plugins/MachineSettingsAction
 usr/lib/cura/plugins/ModelChecker
 usr/lib/cura/plugins/MonitorStage
-usr/lib/cura/plugins/UFPWriter
 usr/lib/python3/dist-packages/cura
 usr/share/applications/
 usr/share/cura/resources/definitions
