@@ -1,0 +1,22 @@
+From: Sebastian Kuzminsky <seb@desktopmetal.com>
+Subject: import all math functions in SettingFunction
+
+This fixes a runtime problem if math functions are used in setting
+functions from the resources.
+
+---
+ UM/Settings/SettingFunction.py | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/UM/Settings/SettingFunction.py b/UM/Settings/SettingFunction.py
+index 043c9f7..0be27e9 100644
+--- a/UM/Settings/SettingFunction.py
++++ b/UM/Settings/SettingFunction.py
+@@ -3,6 +3,7 @@
+ 
+ import ast
+ import math # Imported here so it can be used easily by the setting functions.
++from math import *
+ from typing import Any, Dict, Callable, Set, FrozenSet, NamedTuple, Optional
+ 
+ from UM.Settings.Interfaces import ContainerInterface
