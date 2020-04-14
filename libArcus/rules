@@ -65,8 +65,9 @@ override_dh_install:
 	dh_install \
 	    -plibarcus-dbg \
 	    -ppython3-arcus-dbg \
-	--sourcedir=debian/tmp-dbg --list-missing
-	dh_install -a --remaining-packages --fail-missing
+	    --sourcedir=debian/tmp-dbg
+	dh_install -a --remaining-packages
+	dh_missing --fail-missing
 
 override_dh_strip:
 	dh_strip -plibarcus3 --dbg-package=libarcus-dbg
