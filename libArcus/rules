@@ -24,7 +24,7 @@ override_dh_auto_configure:
 	                      -DCMAKE_INSTALL_LIBDIR=/usr/lib/$(DEB_HOST_MULTIARCH) \
 	                      -DPYTHON_LIBRARY:FILEPATH=/usr/lib/$(DEB_HOST_MULTIARCH)/libpython$${PYX}.so \
 	                      -DPYTHON_SITE_PACKAGES_DIR:FILEPATH=/usr/lib/python$${PYX}/dist-packages \
-	                      -DPYTHON_INCLUDE_DIR:FILEPATH=/usr/include/python$${PYX}m \
+	                      -DPYTHON_INCLUDE_DIR:FILEPATH=/usr/include/python$${PYX} \
 	                      -DPYTHON_EXECUTABLE:FILEPATH=/usr/bin/python$${PYX} ; \
 	done
 	
