@@ -1,0 +1,18 @@
+From: Sebastian Kuzminsky <seb@desktopmetal.com>
+Subject: fixup takeNextMessage() override
+
+---
+
+diff --git a/tests/arcus/MockSocket.h b/tests/arcus/MockSocket.h
+index 80370f49..909d2cdd 100644
+--- a/tests/arcus/MockSocket.h
++++ b/tests/arcus/MockSocket.h
+@@ -27,7 +27,7 @@ public:
+ 
+     //Catch these functions so that we can see whether they are called.
+     void sendMessage(Arcus::MessagePtr message) override;
+-    Arcus::MessagePtr takeNextMessage() override;
++    Arcus::MessagePtr takeNextMessage();
+ 
+     //Helpers to store the sent and received messages.
+     void pushMessageToReceivedQueue(Arcus::MessagePtr message);
